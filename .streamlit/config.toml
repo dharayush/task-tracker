@@ -1,1 +1,73 @@
+# Streamlit Configuration File
+# Place this file in: .streamlit/config.toml
 
+# Theme customization
+[theme]
+# Primary color for interactive elements (buttons, links, etc.)
+primaryColor = "#667eea"
+
+# Background color for the main content area
+backgroundColor = "#ffffff"
+
+# Background color for sidebar and other secondary elements
+secondaryBackgroundColor = "#f0f2f6"
+
+# Text color
+textColor = "#262730"
+
+# Font family: "sans serif", "serif", or "monospace"
+font = "sans serif"
+
+# Server settings
+[server]
+# Run in headless mode (no browser window opens automatically)
+headless = true
+
+# Port number (default is 8501)
+port = 8501
+
+# Allow CORS for all origins (important for deployment)
+enableCORS = false
+
+# Enable XSRF protection
+enableXsrfProtection = true
+
+# Max upload size in MB (default is 200)
+maxUploadSize = 200
+
+# Browser settings
+[browser]
+# Don't gather usage stats
+gatherUsageStats = false
+
+# Server address (useful for deployment)
+serverAddress = "0.0.0.0"
+
+# Client settings (for mobile optimization)
+[client]
+# Show error details
+showErrorDetails = true
+
+# Toolbar mode: "auto", "developer", "viewer", "minimal"
+toolbarMode = "minimal"
+
+# Runner settings
+[runner]
+# Magic commands enabled
+magicEnabled = true
+
+# Install Tracer for better error messages
+installTracer = false
+
+# Fix Matplotlib rendering
+fixMatplotlib = true
+
+# Logger settings
+[logger]
+# Log level: "error", "warning", "info", "debug"
+level = "info"
+
+# Deprecation warnings
+[deprecation]
+showfileUploaderEncoding = false
+showPyplotGlobalUse = false
